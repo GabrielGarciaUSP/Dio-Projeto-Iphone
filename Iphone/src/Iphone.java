@@ -16,7 +16,7 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
     public void pausar() {
         System.out.println("Música pausada.");
     }
-    @Override
+
     public void selecionarMusica(String musica) {
         System.out.println("Selecionando a música: " + musica);
     }
